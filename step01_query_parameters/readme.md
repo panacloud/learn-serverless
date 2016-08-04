@@ -1,0 +1,1 @@
+Open in browser: https://6m8ubmjm3c.execute-api.us-east-1.amazonaws.com/dev/myquery?value1=3
