@@ -16,6 +16,10 @@ https://cloud.google.com/functions/docs/
 
 Firebase Functions when they become available
 
+Also AWS Flourish: 
+
+http://thenewstack.io/amazon-debuts-flourish-runtime-application-model-serverless-computing/
+
 http://serverless.com/
 
 
