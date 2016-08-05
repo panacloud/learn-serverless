@@ -8,4 +8,4 @@ https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddom
 
 Using Postman send a post request to (see screenshot postman_screenshot.png):
 
-https://jqxcbc4im6.execute-api.us-east-1.amazonaws.com/dev/mypost?value1=9
+https://8okx9hulu1.execute-api.us-east-1.amazonaws.com/dev/mypost?value1=9

@@ -1,7 +1,7 @@
 'use strict';
 
 // Your first function handler
-module.exports.post = (event, context, cb) => {
+module.exports.mypost = (event, context, cb) => {
   var body = event.body;
   var value1 = event.query.value1;
   var a = parseInt(value1);
