@@ -14,7 +14,7 @@ var http_1 = require('@angular/http');
 var AppComponent = (function () {
     function AppComponent(http) {
         this.http = http;
-        this.serviceUrl = 'https://jqxcbc4im6.execute-api.us-east-1.amazonaws.com/dev/mypost?value1=9'; // URL to service
+        this.serviceUrl = 'https://8okx9hulu1.execute-api.us-east-1.amazonaws.com/dev/mypost?value1=9'; // URL to service
         this.post();
     }
     AppComponent.prototype.post = function () {
@@ -33,7 +33,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n       <div>\n\t\t{{index}}\n        \n\n\t"
+            template: "\n       <div>\n       API called\n\t   </div>\n        \n\n\t"
         }), 
         __metadata('design:paramtypes', [http_1.Http])
     ], AppComponent);

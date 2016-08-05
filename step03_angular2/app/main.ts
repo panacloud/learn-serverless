@@ -7,13 +7,14 @@ import { HTTP_PROVIDERS, Http, Headers } from '@angular/http';
     selector: 'my-app',
    template: `
        <div>
-		{{index}}
+       API called
+	   </div>
         
 
 	`
 })
 class AppComponent { 
-	private serviceUrl = 'https://jqxcbc4im6.execute-api.us-east-1.amazonaws.com/dev/mypost?value1=9';  // URL to service
+	private serviceUrl = 'https://8okx9hulu1.execute-api.us-east-1.amazonaws.com/dev/mypost?value1=9';  // URL to service
     private response: any;
 
 	constructor(private http: Http){
