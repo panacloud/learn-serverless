@@ -15,13 +15,15 @@ var AppComponent = (function () {
     function AppComponent(http) {
         this.http = http;
         this.serviceUrl = 'https://8okx9hulu1.execute-api.us-east-1.amazonaws.com/dev/mypost?value1=9'; // URL to service
+        this.response = 'Sending message';
         this.post();
     }
     AppComponent.prototype.post = function () {
+        var _this = this;
         var headers = new http_1.Headers({ 'Content-Type': 'application/json' });
         var request = { name: "zia" };
         this.http
-            .post(this.serviceUrl, JSON.stringify(request), { headers: headers }).subscribe((function (res) { return console.log(res); }));
+            .post(this.serviceUrl, JSON.stringify(request), { headers: headers }).subscribe((function (res) { return _this.response = res._body; }));
         //.toPromise()
         //.then(res => res.json().data)
         //.catch(this.handleError);
@@ -33,7 +35,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n       <div>\n       API called\n\t   </div>\n        \n\n\t"
+            template: "\n       <div>\n       API called\n\t   </div>\n       {{response}}\n        \n\n\t"
         }), 
         __metadata('design:paramtypes', [http_1.Http])
     ], AppComponent);
