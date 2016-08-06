@@ -4,6 +4,8 @@ Read:
 
 http://martinfowler.com/articles/serverless.html
 
+http://www.theregister.co.uk/2016/07/11/the_next_big_thing_after_containers_amazon_cto_talks_up_serverless_computing/
+
 http://thenewstack.io/making-sense-serverless-computing/
 
 https://serverless.zone/serverless-is-just-a-name-we-could-have-called-it-jeff-1958dd4c63d7#.46qvb2y1q
